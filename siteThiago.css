@@ -1,0 +1,73 @@
+/*estilos da corpo*/
+body{
+    background-color: #6d6d6d7c;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*estilos do superTitulo*/
+.sTitulo{
+    text-align: center;
+    color: #525252;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    background-color: rgba(128, 255, 0, 0.795);
+}
+
+/*estilos dos SubTitulos*/
+.h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #525252;
+}
+
+.container img{
+    float: center;
+}
+
+/*estilos da descrição*/
+.descricao{
+    border: 1px solid #4a7442;
+    border-radius: 15px;
+    background-color: rgba(128, 255, 0, 0.116);
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*estilos do menu*/
+#menu ul { 
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+    text-align: center;
+}
+#menu ul li { display: inline; }
+#menu ul li a { 
+    padding: 2px 10px; 
+    display: inline-block;
+    background-color:#EDEDED; 
+    color: #333; 
+    text-decoration: none; 
+    border-bottom:3px solid #EDEDED; 
+}
+#menu ul li a:hover { 
+background-color:#D6D6D6;
+color: #6D6D6D;
+border-bottom:3px solid #27ea00;
+}
+
+/*estilos da imagem*/
+.img1{
+    display: block;
+    margin: auto;
+    position: relative;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+}

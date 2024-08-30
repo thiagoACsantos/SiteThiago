@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ThiagoSite</title>
+        <link rel="icon" href="imagens/icone.ico">
+        <link rel="stylesheet" href="siteThiago.css">
+    </head>
+    <body>
+        <!--menu principal-->
+        <nav id="menu"> 
+            <ul> 
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação Acadêmica</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </ul> 
+        </nav>
+        <!--formatação da pagina de contato-->
+        <p><h1 class="sTitulo">Contato</h1></p>
+        <p><h2 class="h2">Me encontre:</h2></p>
+        <main>
+            <div class="container"> 
+                <img src="imagens/contato.png" alt="imagem de download" class="img1" width="300px">  
+                <p class="descricao">
+                    <strong>Email: </strong>Mil-g@hotmail.com<br>
+                    <strong>Celular: </strong>(43) 99188-3643</a>
+                </p>
+            </div>
+        </main>
+
+        <h3 class="h2">Entre em contato: </h3>
+        <!--Formulario-->
+        <form name="meuFormulario">
+            <table>
+                <tr>
+                    <td><label for="nome">Nome: </label></td>
+                    <td><input type="text" id="nomeid" placeholder="Tiago Santos" required="required" name="nome" /></td>
+                </tr>
+                <tr>
+                    <td><label for="fone">Fone: </label></td>
+                    <td><input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" id="emailid" placeholder="nome@email.com" name="email" /></td>
+                </tr>
+                <tr>
+                    <td>Mensagem: </td>
+                    <td><textarea placeholder="Opnião..." rows="5" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
